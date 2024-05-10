@@ -19,7 +19,7 @@
 
         <div class="container">
 
-            <video  plays-inline class="background-clip" controls>
+            <video  muted  plays-inline class="background-clip v1" controls>
                 <source src="./imgs/game.mp4" type="video/mp4">
             </video>
     
@@ -45,5 +45,13 @@
     <section class="curved2">
     </section>
 
+    
 </body>
+<script>
+var video = document.getElementsByClassName('v1')[0];
+
+window.onload = function() {
+    video.play();
+    };
+</script>
 </html>

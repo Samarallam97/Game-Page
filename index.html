@@ -15,7 +15,7 @@
     <div class="landing">
       
 
-        <video autoplay loop plays-inline class="background-clip v1">
+        <video autoplay loop muted  plays-inline class="background-clip v1">
             <source src="./imgs/landing2.mp4" type="video/mp4">
         </video>
 
@@ -39,7 +39,7 @@ function stop() {
 
     // Check if the video was previously muted
     window.onload = function() {
-    video.muted = false;
+    // video.muted = false;
     };
 
     // Unmute the video when returning to index.html
