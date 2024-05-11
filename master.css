@@ -464,7 +464,7 @@ img {
 
 @media (max-width: 768px) {
   .contributers .container{
-    width: 750px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
